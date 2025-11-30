@@ -9,36 +9,37 @@ Live Demo: Coming soon on Render (free tier)
 [![OpenAI](https://img.shields.io/badge/OpenAI-GPT--4o-black)](https://openai.com)
 
 ## What It Does
-You type a normal project description in English → in 5 seconds you get a full professional estimate:
+Just paste a plain-English project description → get a complete, client-ready estimate in seconds:
 
-- Task breakdown with hours
-- Timeline & milestones
-- Budget estimate
-- Risk analysis
-- Resource plan
-- Beautiful downloadable PDF report (ready to send to clients)
+- Task breakdown with effort hours  
+- Timeline & milestones  
+- Budget calculation  
+- Risk identification  
+- Resource recommendations  
+- One-click branded PDF report (download & send)
 
-Powered 100% by OpenAI GPT-4o + advanced prompt engineering (official OpenAI course)
+All powered by OpenAI GPT-4o + advanced prompt engineering, I learned directly from OpenAI’s official course.
 
-## Features
-- User login/registration
-- Save all your projects
-- Instant AI estimation
-- Real-time dashboard
-- One-click branded PDF report
-- Fully responsive (mobile + desktop)
-- Clean production-ready code
+## Key Features
+- User registration & secure authentication (Django Allauth)  
+- Save unlimited projects with full history  
+- Instant AI-generated structured estimates  
+- Beautiful real-time dashboard  
+- Professional PDF report generation (ready for clients)  
+- Fully responsive with Tailwind CSS  
+- Clean, production-ready code
 
 ## Tech Stack
-- Python + Django 5
-- OpenAI GPT-4o API
-- Tailwind CSS
-- SQLite (easy to change to PostgreSQL)
-- Docker-ready
+- Backend: Python + Django 5  
+- AI: OpenAI GPT-4o API + advanced prompt engineering  
+- Frontend: Tailwind CSS, HTML, JavaScript  
+- Database: SQLite (easy switch to PostgreSQL)  
+- Authentication: Django Allauth  
+- Ready for Docker & cloud deployment
 
 ## Why I Built This
-After 4+ years writing automation at Discover Financial Services and HCL Technologies, I saw the same problem again and again: project estimates take hours and are inaccurate.  
-PredictivePlanner solves it instantly using the same AI that powers ChatGPT — but with professional-grade prompts.
+After 4+ years automating systems at Discover Financial Services and HCL (100+ production scripts, Azure automation, CI/CD), I kept seeing the same pain: project estimates took hours/days and were inconsistent.  
+PredictivePlanner fixes that using the same GPT models behind ChatGPT, but with carefully engineered prompts to produce reliable, professional output every time.
 
 ## Screenshots 
 <img width="1902" height="1113" alt="image" src="https://github.com/user-attachments/assets/3512d704-2f4c-457d-88a9-b1df6bb748ab" />
