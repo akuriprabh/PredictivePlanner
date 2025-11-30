@@ -1,10 +1,9 @@
 # PredictivePlanner – AI-Powered Project Estimation Tool
 
-https://github.com/akuriprabh/PredictivePlanner
+GitHub: https://github.com/akuriprabh/PredictivePlanner
+Live Demo: Coming soon on Render (free tier) 
 
-Live Demo → Coming this week (free Render free tier)  
-Ask me for early access: prabhudeva.akuri7@gmail.com
-
+[![PredictivePlanner](https://img.shields.io/badge/status-actively%20developing-brightgreen)]()
 [![Python](https://img.shields.io/badge/Python-3.11-blue)](https://www.python.org)
 [![Django](https://img.shields.io/badge/Django-5.0-green)](https://www.djangoproject.com)
 [![OpenAI](https://img.shields.io/badge/OpenAI-GPT--4o-black)](https://openai.com)
@@ -42,9 +41,9 @@ After 4+ years writing automation at Discover Financial Services and HCL Technol
 PredictivePlanner solves it instantly using the same AI that powers ChatGPT — but with professional-grade prompts.
 
 ## Screenshots 
-<img width="1875" height="1111" alt="image" src="https://github.com/user-attachments/assets/91bb2c65-8a62-469b-941a-ba17a6d70adc" /> <img width="1872" height="1107" alt="image" src="https://github.com/user-attachments/assets/9cf76682-d452-4744-9df9-b0ca59d801e3" /> <img width="1893" height="1107" alt="image" src="https://github.com/user-attachments/assets/28ccf301-b743-4b49-b988-83d1d3b5c38d" /> 
-
-
+<img width="1902" height="1113" alt="image" src="https://github.com/user-attachments/assets/3512d704-2f4c-457d-88a9-b1df6bb748ab" />
+<img width="1872" height="1107" alt="image" src="https://github.com/user-attachments/assets/9cf76682-d452-4744-9df9-b0ca59d801e3" /> 
+<img width="1893" height="1107" alt="image" src="https://github.com/user-attachments/assets/28ccf301-b743-4b49-b988-83d1d3b5c38d" /> 
 
 
 ## How to Run Locally
