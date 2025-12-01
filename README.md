@@ -46,14 +46,34 @@ PredictivePlanner fixes that using the same GPT models behind ChatGPT, but with 
 <img width="1872" height="1107" alt="image" src="https://github.com/user-attachments/assets/9cf76682-d452-4744-9df9-b0ca59d801e3" /> 
 <img width="1893" height="1107" alt="image" src="https://github.com/user-attachments/assets/28ccf301-b743-4b49-b988-83d1d3b5c38d" /> 
 
+### How to Run Locally (Takes ~1 minute)
 
-## How to Run Locally
 ```bash
+# 1. Clone the repo
 git clone https://github.com/akuriprabh/PredictivePlanner.git
 cd PredictivePlanner
+
+# 2. Create and activate a virtual environment
 python -m venv venv
-source venv/bin/activate        # On Windows: venv\Scripts\activate
+
+# Windows:
+venv\Scripts\activate
+# Mac/Linux:
+# source venv/bin/activate
+
+# 3. Install dependencies
 pip install -r requirements.txt
+
+# 4. Set up environment variables (your key stays private)
+# Windows:
+copy .env.example .env
+# Mac/Linux:
+# cp .env.example .env
+
+# Open .env and paste your real OpenAI key:
+# OPENAI_API_KEY=sk-proj-XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+
+# 5. Run the app
 python manage.py migrate
-python manage.py createsuperuser
+python manage.py createsuperuser    # optional # create your admin account
 python manage.py runserver
