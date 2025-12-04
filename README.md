@@ -1,7 +1,6 @@
 # PredictivePlanner – AI-Powered Project Estimation Tool
 
 GitHub: https://github.com/akuriprabh/PredictivePlanner  
-Live Demo: Coming soon on Render 
 
 [![PredictivePlanner](https://img.shields.io/badge/status-actively%20developing-brightgreen)]()
 [![Python](https://img.shields.io/badge/Python-3.11-blue)](https://www.python.org)
